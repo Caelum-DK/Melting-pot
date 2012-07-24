@@ -12,3 +12,7 @@ License URI: http://www.opensource.org/licenses/mit-license.php
 @import url("stylesheets/foundation.css");
 @import url("stylesheets/app.css");
 [if lt IE 9] @import url("stylesheets/ie.css");
+
+#slider {
+	width: 400px;
+}

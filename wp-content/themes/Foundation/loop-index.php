@@ -1,11 +1,9 @@
-<div id="slider">
-<div id="featured">
+<div class="eight columns">
+	<div id="featured">
 
 	<?php SliderContent(); ?>
 	
-</div>	
 </div>
-<div class="eight columns">
 
 <!-- Skip Nav -->
 <a id="content"></a>

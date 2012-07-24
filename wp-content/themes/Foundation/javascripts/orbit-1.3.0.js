@@ -18,7 +18,7 @@
       advanceSpeed: 4000, 				// if timer is enabled, time between transitions 
       pauseOnHover: true, 				// if you hover pauses the slider
       startClockOnMouseOut: true, 		// if clock should start on MouseOut
-      startClockOnMouseOutAfter: 1000, 	// how long after MouseOut should the timer start again
+      startClockOnMouseOutAfter: 500, 	// how long after MouseOut should the timer start again
       directionalNav: false, 				// manual advancing directional navs
       captions: true, 					// do you want captions?
       captionAnimation: 'fade', 			// fade, slideOpen, none
@@ -27,7 +27,7 @@
       bulletThumbs: false,				// thumbnails for the bullets
       bulletThumbLocation: '',			// location from this file where thumbs will be
       afterSlideChange: $.noop,		// empty function 
-      fluid: 16x9,
+      fluid: true,
       centerBullets: true    // center bullet nav with js, turn this off if you want to position the bullet nav manually
  	  },
  	  

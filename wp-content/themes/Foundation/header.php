@@ -22,10 +22,20 @@
 	<![endif]-->
 	
 	<?php wp_head(); ?>
+	<script type="text/javascript">
+	init = function(){
+		var jarallax = new Jarallax();
+		jarallax.addAnimation('.yeah',[{progress: '0%', top:'50%'},{progress:'100%', top:'-10px'}]);
+		jarallax.addAnimation('.lol',[{progress: '0%', top:'100%'},{progress:'100%', top:'-400px'}]);
+		}
+
+
+
+	</script>
 
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> onload="init()">
 
 	<!-- Begin Container -->
 	<div class="container">

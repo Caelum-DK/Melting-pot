@@ -12,3 +12,40 @@ License URI: http://www.opensource.org/licenses/mit-license.php
 @import url("stylesheets/foundation.css");
 @import url("stylesheets/app.css");
 [if lt IE 9] @import url("stylesheets/ie.css");
+
+#grim {}
+
+#banner {
+	background: #000;
+	width: 100%;
+}
+#vignetting {
+	position: absolute;
+	top: 0px;
+	z-index: 5;
+}
+#slider {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.yeah {
+	background: url('images/fuckyeah.png');
+	width: 484px;
+	height: 510px;
+	position: fixed;
+	top: 50%;
+	z-index: 6;
+}
+
+.lol {
+	background: url('images/lol.png');
+	width: 700px;
+	height: 510px;
+	position: fixed;
+	top: 100%;
+	left: 50%;
+	z-index: 5;
+}

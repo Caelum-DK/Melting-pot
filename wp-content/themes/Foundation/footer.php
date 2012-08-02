@@ -25,6 +25,7 @@
 	<script src="<?php bloginfo('template_url'); ?>/javascripts/foundation.js"></script>
 	<script src="<?php bloginfo('template_url'); ?>/javascripts/orbit-1.3.0.js"></script>
 	<script src="<?php bloginfo('template_url'); ?>/javascripts/app.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/javascripts/jarallax-min-0.2.1.js"></script>
 
 	<?php wp_footer(); ?>
 	

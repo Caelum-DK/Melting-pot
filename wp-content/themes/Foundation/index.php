@@ -13,8 +13,6 @@
 				<img id="vignetting" src="<?php bloginfo('template_directory'); ?>/images/vignetting.png"></img>
 		</div>
 	</div>
-	<div class="yeah"></div>
-	<div class="lol"></div>
 
 
 <div class="row">
